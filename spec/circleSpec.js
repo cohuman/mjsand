@@ -1,5 +1,5 @@
 
-var Circle = require('../circle');
+var Circle = require('../modules/circle');
 
 describe("Circle", function() {
 
@@ -21,4 +21,10 @@ describe("Circle", function() {
             expect(circle.diameter()).toEqual(2);
         });
     });
+
+    describe(".foo", function() {
+        it("returns foo", function() {
+            expect(Circle.foo()).toEqual("foo");
+        })
+    })
 })

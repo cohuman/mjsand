@@ -12,5 +12,8 @@ Circle.prototype.diameter = function() {
     return 2 * this.r;
 }
 
+Circle.foo = function() {
+    return "foo";
+}
 
 module.exports = Circle;

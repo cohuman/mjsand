@@ -4,7 +4,7 @@
   "description": "testing stuff out",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-node --autotest spec/"
+    "test": "jasmine-node --autotest spec/ --watch modules/"
   },
   "author": "",
   "license": "ISC"
