@@ -5,7 +5,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-    res.send('Hello World! This should get deployed automagically!');
+    res.send('Hello World! This should not get deployed b/c the build will be broken!');
 });
 
 var port = Number(process.env.PORT || 5000);
