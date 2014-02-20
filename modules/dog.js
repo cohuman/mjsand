@@ -11,4 +11,8 @@ Dog.prototype.cry = function() {
     return "Whimper!  Love me!";
 }
 
+Dog.prototype.untested = function() { return "untested"; }
+Dog.prototype.stinky = function() { return "stinky"; }
+Dog.prototype.scratchy = function() { return "scratchy"; }
+
 module.exports = Dog;
