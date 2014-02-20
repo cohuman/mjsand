@@ -1,19 +1,20 @@
 {
-    "name": "sandbox",
-    "version": "0.0.0",
-    "description": "testing stuff out",
-    "main": "index.js",
-    "scripts": {
-        "testDev": "jasmine-node --autotest spec/ --watch modules/",
-        "test": "jasmine-node spec/"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "logfmt": "~0.21.0",
-        "express": "~3.4.8"
-    },
-    "engines": {
-        "node": "0.10.x"
-    }
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "testing stuff out",
+  "main": "index.js",
+  "scripts": {
+    "testDev": "jasmine-node --autotest spec/ --watch modules/",
+    "test": "istanbul test jasmine-node spec/ "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "logfmt": "~0.21.0",
+    "express": "~3.4.8",
+    "coveralls": "~2.8.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
 }
