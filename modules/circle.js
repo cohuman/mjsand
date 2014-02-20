@@ -16,12 +16,5 @@ Circle.foo = function() {
     return "foo";
 }
 
-Circle.prototype.untested = function() {
-    return "untested";
-}
-
-Circle.prototype.brittle = function() {
-    return "brittle";
-}
 
 module.exports = Circle;
